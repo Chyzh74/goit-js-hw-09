@@ -1,9 +1,9 @@
-const startBtn = document.querySelector('[data-start]');
-const stopBtn = document.querySelector('[data-stop]');
+const startBtn = document.querySelector("[data-start]");
+const stopBtn = document.querySelector("[data-stop]");
 let timerId = null;
 
-startBtn.addEventListener('click', changeBgnColor);
-stopBtn.addEventListener('click', stopChangeBgnColor);
+startBtn.addEventListener("click", changeBgnColor);
+stopBtn.addEventListener("click", stopChangeBgnColor);
 
 function changeBgnColor() {
   document.body.style.background = getRandomHexColor();
